@@ -35,3 +35,25 @@ This system combines the capabilities of **Llama 3.1**, **Ollama**, **LangChain*
 - Install the required libraries using `pip`:
   ```bash
   pip install streamlit langchain ollama pydantic
+
+### Running the Project
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/amey-ghate/exam_assessment.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd exam_assessment
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run main.py
+
+### Future Enhancements
+
+- **Creative and Reasoning Assessments**: Introduce features to assess and score creativity and reasoning in open-ended answers, in addition to factual content.
+- **Advanced Language Models**: Experiment with other state-of-the-art language models to improve accuracy and domain-specific evaluation.
+- **Customization of Scoring Weights**: Allow examiners to adjust the weighting between content evaluation and language evaluation to fit specific grading criteria.
+- **Multilingual Support**: Extend the system to assess answers written in multiple languages, increasing its utility in diverse educational settings.
+
